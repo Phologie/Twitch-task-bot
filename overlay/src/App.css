@@ -1,0 +1,46 @@
+.overlay {
+  background: transparent; /* transparent background for OBS */
+  color: #B07E79;           /* text color */
+  font-family: Calibri, sans-serif;
+  font-weight: bold;        /* bold text */
+  padding: 10px;
+  width: 400px;
+  max-height: 600px;
+  overflow: hidden;         /* hide overflow for animation */
+  font-size: 1.2rem;        /* double text size */
+}
+
+.overlay h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.overlay ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.overlay li {
+  padding: 8px 10px;
+  margin-bottom: 5px;
+  background: rgba(0, 0, 0, 0); /* transparent by default */
+  /* border-left: 4px solid black; */ /* black bar on the left */
+  border-radius: 3px;
+}
+
+/* Zebra striping: every second task in very light gray */
+.overlay li:nth-child(even) {
+  background: rgba(220, 220, 220, 0.3); /* very light semi-transparent gray */
+}
+
+/* Completed tasks */
+.overlay li.done {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+/* Auto-scroll if too many tasks */
+@keyframes scro
