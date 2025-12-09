@@ -1,6 +1,6 @@
 # Foreword:
 
-I created a very simple Twitch bot inspired by SuperSweetBot ([https://supersweetbot.cc/about/](https://supersweetbot.cc/about/)) for OBS ([https://obsproject.com/](https://obsproject.com/) completely free and open access.
+I created a very simple Twitch bot inspired by SuperSweetBot ([https://supersweetbot.cc/about/](https://supersweetbot.cc/about/)) for OBS ([https://obsproject.com/](https://obsproject.com/)) completely free and open access.
 This project does not replace the original project, which is much more complete.
 I am not a programmer, so it is (very) likely that this project contains errors. Any suggestions for improvement are welcome!
 
