@@ -42,5 +42,12 @@
   opacity: 0.6;
 }
 
-/* Auto-scroll if too many tasks */
-@keyframes scro
+/* Automatic scrolling if there are too many tasks */
+@keyframes scroll {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-100%); }
+}
+
+.scrollable {
+  animation: scroll 20s linear infinite;
+}
